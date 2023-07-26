@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <title>Reporting</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Sites meta Data -->
+  <meta name="application-name" content="Reporting">
+  <meta name="author" content="wd44357">
+
+  <!-- OG meta data -->
+  <meta property="og:title" content="Reporting">
+  <meta property="og:site_name" content=Torkbiz>
+  <meta property="og:url" content="http://www.bootstrapmb.com">
+  <meta property="og:description" content="TPS Platform Reporting System.">
+  <meta property="og:type" content="website">
+
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/lightcase.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+
+  <!-- main css for template -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ===============>> Preloader start here <<================= -->
+  <div class="preloader">
+    <img src="assets/images/logo/preloader.png" alt="preloader icon">
+  </div>
+  <!-- ===============>> Preloader end here <<================= -->
+
+  <!-- ===============>> light&dark switch start here <<================= -->
+  <div class="lightdark-switch">
+    <span class="dark-btn" id="btnSwitch"></span>
+  </div>
+  <!-- ===============>> light&dark switch start here <<================= -->
+
+  <!-- ===============>> Header section start here <<================= -->
+  <header class="header-section bg-color-3">
+    <div class="header-bottom">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="logo">
+            <a href="index.html">
+              <img class="dark" src="assets/images/logo/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="menu-area">
+            <ul class="menu menu--style1">
+              <li>
+                <a href="index.html#Template">Templates</a>
+                <ul class="submenu">
+                  <li><a href="jira.html">Jira Dashboard <span class="style1">New!</span></a></li>
+                  <li><a href="#0">Code Quality </a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="index.html#Stream">Stream Ingestion</a>
+                <ul class="submenu">
+                  <li><a href="index.html#Stream">Ingest Data From Kafka</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="header-action">
+            <div class="menu-area">
+              <div class="header-btn">
+                <a href="signup.html" class="trk-btn trk-btn--border trk-btn--primary1">
+                  <span>Go To Dashboard</span>
+                </a>
+              </div>
+
+              <!-- toggle icons -->
+              <div class="header-bar d-lg-none header-bar--style1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ===============>> Header section end here <<================= -->
+
+  <!-- ===============>> account start here <<================= -->
+  <section class="account padding-bottom">
+    <div class="container">
+      <div class="account__wrapper" data-aos="fade-up" data-aos-duration="800">
+        <div class="row g-4">
+          <div class="col-12">
+            <div class="account__content account__content--style1">
+
+              <!-- account tittle -->
+              <div class="account__header">
+                <h4>Create your Jira Dashboard</h4>
+
+                <p>Hey there! Ready to onboard your data? We just need a few details from you to get started. Let's do
+                  this!</p>
+              </div>
+              <!-- account divider -->
+              <div class="account__divider account__divider--style1"></div>
+
+              <!-- account form -->
+              <form action="#" class="account__form needs-validation" novalidate>
+                <div class="row g-4">
+                  <div class="col-12 col-md-3">
+                    <div>
+                      <label for="first-name" class="form-label">CSI</label>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div>
+                      <input class="form-control" type="text" id="first-name" placeholder="Ex. C150699">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <div>
+                      <label for="last-name" class="form-label">Application Name</label>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div>
+                      <input class="form-control" type="text" id="last-name" placeholder="Ex. Trade Processing Services">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <div>
+                      <label for="account-email" class="form-label">Application Owner</label>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div>
+                      <input type="email" class="form-control" id="account-email" placeholder="Enter SOEID of application owner"
+                        required>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <div>
+                      <label for="account-email" class="form-label">Jira Domain</label>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div>
+                      <input type="email" class="form-control" id="account-email" placeholder="Ex. https://cedt-icg-jira.nam.nsroot.net"
+                        required>
+                    </div>
+                  </div>
+
+                  <div class="account__check">
+
+                    <div class="account__check-remember">
+                      <input type="checkbox" class="form-check-input" value="" id="terms-check">
+                      <label for="terms-check" class="form-check-label">
+                        Add Template Dashboard
+                      </label>
+                    </div>
+                    <div class="account__check-remember">
+                      <input type="checkbox" class="form-check-input" value="" id="terms-check">
+                      <label for="terms-check" class="form-check-label">
+                        FID "lightspeed-bot" Access Granted
+                      </label>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="trk-btn trk-btn--border trk-btn--primary1 d-block mt-4">Onboard</button>
+              </form>
+
+
+              <div class="account__switch">
+                <p>View Jira Dashboard? <a href="signin.html">Template</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===============>> account end here <<================= -->
+
+  <!-- vendor plugins -->
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/fslightbox.js"></script>
+  <script src="assets/js/purecounter_vanilla.js"></script>
+
+
+
+  <script src="assets/js/custom.js"></script>
+
+
+</body>
+
+</html>
